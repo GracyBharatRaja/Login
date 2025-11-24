@@ -1,0 +1,59 @@
+html{
+    background-image: url("./Images/bg");
+}
+div {
+
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  width: 310px;
+  height: 480px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(85, 151, 236);
+  color: rgb(4, 4, 4);
+  border-radius: 10px;
+  
+  
+ 
+  
+  
+}
+h1{
+    text-align: center;
+    
+}
+.container{
+    border: none;
+    height: 5px;
+    width: 250px;
+    
+    display:flex;
+    margin-top: 10px;
+    justify-content: center;}
+    
+  
+    
+   
+
+label{
+    display: block;
+    margin: top 10px;
+}
+button{
+    background-color: rgba(4, 79, 243, 0.646);
+    height: 25px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    cursor: pointer;
+}
+
+    button:hover{
+        background-color: rgb(4, 173, 252);
+    }
+    
+   
+
