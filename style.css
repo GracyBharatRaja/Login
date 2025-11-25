@@ -4,6 +4,12 @@ html{
      background-size:cover;
      
 }
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url('Images/bg');
+    background-size: cover;
+  }
+}
 div {
 
  display: block;
