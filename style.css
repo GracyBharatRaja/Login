@@ -7,6 +7,12 @@ body{
      background-position: center;
      
 }
+@media (max-width: 600px) { 
+    body {
+        background-image: url('Images/bg'); 
+        background-size: cover;
+    }
+}
 
 div {
 
