@@ -1,15 +1,13 @@
-html{
+body{
+    height: 100vh;
+    margin: 0;
     background-image: url("./Images/bg");
      background-repeat: no-repeat;
      background-size:cover;
+     background-position: center;
      
 }
-@media screen and (max-width: 768px) {
-  body {
-    background-image: url('Images/bg');
-    background-size: 100vw 100vh;
-  }
-}
+
 div {
 
  display: block;
