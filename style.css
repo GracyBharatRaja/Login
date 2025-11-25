@@ -2,6 +2,7 @@ html{
     background-image: url("./Images/bg");
      background-repeat: no-repeat;
      background-size:100vw auto;
+     height: 100vh;
 }
 div {
 
