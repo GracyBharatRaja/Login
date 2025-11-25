@@ -7,6 +7,7 @@ document.getElementById("loginButton").addEventListener('click', function(event)
     const pno = document.getElementById("pno").value;
     const email = document.getElementById("Email").value; 
     const password = document.getElementById("Pass").value; 
+    
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const phoneRegex = /^\d{10}$/;
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
